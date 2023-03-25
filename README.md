@@ -1,5 +1,6 @@
 # apty
 tutorial: build a local debian package
+<br/>
 
 ## Environment
 - Debian Linux (test in ubuntu 20.04)
@@ -20,7 +21,6 @@ sudo apt install -f ./hello-world_0.0.1-1_amd64.deb
 hello-world && which hello-world
 // print and show path
 ```
-
 <br/>
 
 ## Other Command
@@ -30,7 +30,6 @@ dpkg-deb --info ~/example/hello-world_0.0.1.deb
 dpkg-deb --contents ~/example/hello-world_0.0.1.deb
 sudo apt delete hello-world
 ```
-
 <br/>
 
 ## 檔案說明
@@ -42,7 +41,6 @@ sudo apt delete hello-world
 - 安裝的 binary executable
 ### Makefile
 - convenient commands
-
 <br/>
 
 ## Reference Tutor
