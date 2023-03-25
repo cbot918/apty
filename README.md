@@ -3,6 +3,10 @@ tutorial: build a local debian package
 
 <br/>
 
+## Environment
+- Debian Linux (test in ubuntu 20.04)
+- it is welcome to test in ubuntu vm
+
 ## Getting Started
 ```
 sudo apt install -y gcc dpkg-dev gpg make
