@@ -5,17 +5,17 @@ tutorial: build a local debian package
 
 ## Getting Started
 ```
-make build
-// create hello-world_0.0.1-1_amd64.deb
+sudo apt install -y gcc dpkg-dev gpg make
+// install prerequesties
+
+dpkg --build ./hello-world_0.0.1-1_amd64
+// should create .deb file
 
 sudo apt install -f ./hello-world_0.0.1-1_amd64.deb
-// perform install
+// should perform install
 
-hello-world
-// hello packaged world
-
-which hello-world
-// /usr/local/bin/hello-world
+hello-world && which hello-world
+// print and show path
 ```
 
 <br/>
@@ -37,6 +37,8 @@ sudo apt delete hello-world
 - 固定格式：pkg資訊
 ### usr/local/bin/hello-world
 - 安裝的 binary executable
+### Makefile
+- convenient commands
 
 <br/>
 
