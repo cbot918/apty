@@ -25,12 +25,16 @@ hello-world && which hello-world
 <br/>
 
 ## Other Command
-delete pkg
+pkg info
 ```
 dpkg-deb --info ~/example/hello-world_0.0.1.deb
 dpkg-deb --contents ~/example/hello-world_0.0.1.deb
+```
+delete pkg
+```
 sudo apt remove hello-world
 ```
+
 <br/>
 
 ## 檔案說明
