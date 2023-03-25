@@ -4,7 +4,6 @@ tutorial: build a local debian package
 ## Environment
 - Debian Linux (test in ubuntu 20.04)
 - it is welcome to test in ubuntu vm
-
 <br/>
 
 ## Getting Started
