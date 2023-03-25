@@ -29,7 +29,7 @@ delete pkg
 ```
 dpkg-deb --info ~/example/hello-world_0.0.1.deb
 dpkg-deb --contents ~/example/hello-world_0.0.1.deb
-sudo apt delete hello-world
+sudo apt remove hello-world
 ```
 <br/>
 
