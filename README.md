@@ -1,5 +1,5 @@
 # apty
-tutorial: build a local debian package
+template: build a local debian package
 
 <br/>
 
